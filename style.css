@@ -1070,13 +1070,25 @@ img
     position: relative;
 	font-family: 'Cormorant Garamond', serif;
 }
+#contact::before
+{
+    content: '';
+	position: absolute;
+	/*top: 0;*/
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.6;
+}
 
 #contact h1
 {
 	padding-top: 50px;
 	padding-bottom: 100px;
-	color: #000;	
+    position: relative;
+	color: #fff;	
     font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .address 
 {
@@ -1086,7 +1098,9 @@ img
 {
 	list-style: none;
 	font-size: 20px;
-	color: #000;
+	color: #fff;	
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .address ul li i
 {

@@ -320,3 +320,17 @@
             width: 85%;
         }
 }
+@media screen and (max-width:300px)
+    {
+        .address 
+        {
+            margin-top: 150px;
+            font-size: 25px;    
+        }
+        .show_location
+        {
+            margin-top: 40px !important;
+            margin-bottom: 50px !important;
+        }
+        
+}
